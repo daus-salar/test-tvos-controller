@@ -1,0 +1,23 @@
+x = - sin t
+y = sin p cos t
+z = cos p cos t
+
+t = asin (- x)
+p = asin (y/(cos t))
+
+
+!!!Gimbol Lock!!!
+
+t == pi/2
+
+
+q=ct*cf
+  +i*(ct*cf)
+  +j*(-st*sf)
+  +k*(ct*sf)
+
+
+  q*(k)/q
+  = (ct*cf*k - j*(ct*cf) + i*(-st*sf) - 1*(ct*sf))/q
+  = (- 1*(ct*sf) + i*(-st*sf) - j*(ct*cf) + ct*cf*k  ) * (ct*cf - i*(ct*cf) - j*(-st*sf) - k*(ct*sf))
+  =
